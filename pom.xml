@@ -50,7 +50,7 @@
                 <configuration>
                     <archive>
                         <manifest>                            
-                            <mainClass>mypack.oanda.Main</mainClass>
+                            <mainClass>mypack.oanda.orders</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
