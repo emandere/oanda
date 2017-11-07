@@ -16,4 +16,4 @@ ADD src /code/src
 RUN ["mvn", "package"]
 
 EXPOSE 4567
-CMD ["/usr/lib/jvm/java-8-openjdk-amd64/bin/java", "-jar", "target/oanda-1.0-SNAPSHOT.jar"]
+CMD ["/usr/lib/jvm/java-8-openjdk-amd64/bin/java", "-jar", "/code/target/oanda-1.0-SNAPSHOT.jar"]
